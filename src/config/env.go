@@ -6,6 +6,7 @@ import (
 
 var HostPath string
 var AssetsPath string
+var Port string
 
 func SetupEnv() {
 	var envs map[string]string
@@ -15,13 +16,12 @@ func SetupEnv() {
 		panic(err)
 	}
 
-	port := envs["Port"]
+	Port = envs["Port"]
 
 	if envs["Environment"] == "dev" {
-		HostPath = "localhost:" + port + "/"
+		HostPath = "localhost:" + Port + "/"
 	} else {
 		HostPath = "www.threecube.lv/"
 	}
-
 	AssetsPath = HostPath + "assets/"
 }

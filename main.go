@@ -15,7 +15,7 @@ func main() {
 
 	config.CreateRoutes(router)
 
-	err := router.Run()
+	err := router.Run(":" + config.Port)
 	if err != nil {
 		return
 	}
