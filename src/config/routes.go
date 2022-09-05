@@ -17,6 +17,10 @@ func CreateRoutes(router *gin.Engine) {
 		c.HTML(http.StatusOK, "c_app.html", gin.H{})
 	})
 
+	router.GET("/ok", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "c_app.html", gin.H{})
+	})
+
 }
 
 /*func applyBasicValues(c *gin.Context, file string) {
