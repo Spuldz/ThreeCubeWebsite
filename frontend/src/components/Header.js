@@ -4,7 +4,10 @@ export default function Header() {
   return (
     <header className="header">
       <div className="headerContent">
-        <div className="headerLogo"></div>
+        <div className="headerLogo">
+          <img src={Logo} className="logo"></img>
+          <p id="logoText">ThreeClub</p>
+        </div>
         <div className="headerOptions">
           <li className="headerLi">Par Mums</li>
           <li className="headerLi">Smart Toys</li>
@@ -14,7 +17,7 @@ export default function Header() {
 
         <div className="headerLanguage">
           <select className="HeaderLanguageSelect">
-            <option>Lv</option>
+            <option className="HeaderLanguageSelect">Lv</option>
           </select>
         </div>
       </div>
