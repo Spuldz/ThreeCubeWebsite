@@ -13,10 +13,10 @@ export default function HomePage() {
       <Footer />
 
       <div className={styles.images}>
-        <img src={arrow} id={styles.arrow}></img>
-        <img src={RBS} className={styles.options}></img>
-        <img src={swedbank} className={styles.options}></img>
-        <img src={printful} className={styles.options}></img>
+        <img src={arrow} id={styles.arrow} alt=""></img>
+        <img src={RBS} className={styles.options} alt=""></img>
+        <img src={swedbank} className={styles.options} alt=""></img>
+        <img src={printful} className={styles.options} alt=""></img>
       </div>
     </>
   );

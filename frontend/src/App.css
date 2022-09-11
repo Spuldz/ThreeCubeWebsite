@@ -57,6 +57,10 @@ body {
   content: ' ';
 }
 
+.headerLi {
+  cursor: pointer;
+}
+
 .headerLanguage {
   width: 120px;
   height: 120px;
@@ -73,6 +77,6 @@ body {
 .HeaderLanguageSelect {
   border: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Poppins', sans-serif;
 }
