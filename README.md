@@ -1,16 +1,32 @@
-# ThreeCubeWebsite
+# Starting  dev environment
 
-    to start server localy on port :8080
+    cd ./backend/docker
+    docker-compose up --build
+    
+    cd ./frontend
+    npm start
 
-    write -     docker-compose up --build      in projocts ./ dir
+    OR
 
-    then connect with typing localhost:8080 in browser
+    in backend/docker/.env
+        Environment = dev2
 
-    ./front/assets is public
+    docker-compose up --build
 
 
 
-# .env Example
+# Start Production environment
+
+    cd ./backend/docker
+
+    docker-compose up --build
+
+    address- localhost:8080
+
+    connect to the contaier:  docker exec -it three_cube bash
+
+
+# backend/docker/.env Example, resides in ./
     Environment = dev
     Port = 8080
     

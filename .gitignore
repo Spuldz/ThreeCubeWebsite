@@ -1,2 +1,6 @@
-./.env
+backend/docker/.env
 ./.idea
+
+#front end
+./frontend/node_modules
+./frontend/build
