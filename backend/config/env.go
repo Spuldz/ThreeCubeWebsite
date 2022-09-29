@@ -4,6 +4,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
+var Environment string
 var HostPath string
 var AssetsPath string
 var Port string
@@ -18,7 +19,9 @@ func SetupEnv() {
 
 	Port = envs["Port"]
 
-	if envs["Environment"] == "dev" {
+	Environment = envs["Environment"]
+
+	if Environment == "dev2" || Environment == "dev" {
 		HostPath = "localhost:" + Port + "/"
 	} else {
 		HostPath = "www.threecube.lv/"

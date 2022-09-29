@@ -13,7 +13,11 @@ export default function Header() {
         </div>
         <div className="headerOptions">
           <li className="headerLi" onClick={() => navigate("/about")}>Par Mums</li>
+<<<<<<< HEAD
           <li className="headerLi" onClick={() => navigate("/toys")}>Smart Toys</li>
+=======
+          <li className="headerLi">Smart Toys</li>
+>>>>>>> f4d846a6ab9b9f70242a2895f2f0afde5f7d10a5
           <li className="headerLi">C-APP</li>
           <li className="headerLi">#Reveal22</li>
         </div>

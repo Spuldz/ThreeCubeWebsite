@@ -3,6 +3,7 @@ module github.com/WinterWolfie/ThreeCubeWebsite
 go 1.16
 
 require (
+	github.com/gin-contrib/cors v1.4.0 // indirect
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-playground/validator/v10 v10.11.0 // indirect
 	github.com/goccy/go-json v0.9.11 // indirect

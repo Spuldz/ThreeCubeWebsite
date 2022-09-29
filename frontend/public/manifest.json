@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "short_name": "React App",
+=======
+  "short_name": "ThreeCube",
+>>>>>>> f4d846a6ab9b9f70242a2895f2f0afde5f7d10a5
   "name": "Create React App Sample",
   "icons": [
     {
