@@ -58,6 +58,10 @@ export default function SmarttoysPage() {
                 <div className={styles.bottomContBoxes}>SmartToys un C-APP paredzēta bērniem no 4 - 8 gadiem. Ja Jūsu bērns uzsāk skolu, tad tas būs lielisks rīks, lai atkārtotu kādas zināšanas iegūtas bērnudārzā.</div>
                 <div className={styles.bottomContBoxes}>Šī platforma bērniem ir lieliska iespēja izmēģināt, ko jaunu - izmēģināt jaunākās tehnoloģijas un dot bērnam zināšanas mācību priekšmetos.</div>
             </div>
+
+            <div></div>
         </>
     )
 }                                                                                               
+
+
