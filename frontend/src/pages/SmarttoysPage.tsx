@@ -59,7 +59,6 @@ export default function SmarttoysPage() {
                 <div className={styles.bottomContBoxes}>Šī platforma bērniem ir lieliska iespēja izmēģināt, ko jaunu - izmēģināt jaunākās tehnoloģijas un dot bērnam zināšanas mācību priekšmetos.</div>
             </div>
 
-            <div></div>
         </>
     )
 }                                                                                               
